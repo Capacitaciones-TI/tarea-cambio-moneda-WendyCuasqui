@@ -1,3 +1,12 @@
 Algoritmo moneda
-
+	Escribir "Hola, Bienvenido a la página de cambio de moneda"
+	Escribir "Ingresa la moneda fuente"
+	Leer MON_F
+	Escribir "Ingresa la moneda destino"
+	Leer MON_D
+	Escribir "Ingresa el valor a cambiar"
+	Leer MON_C
+	Si MON_F es "USD" y MON_D es "EUR" Entonces
+		RESULTADO<- MON_C * 0.93
+	FinSi
 FinAlgoritmo
