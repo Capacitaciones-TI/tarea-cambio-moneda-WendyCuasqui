@@ -7,6 +7,7 @@ Algoritmo moneda
 	Escribir "Ingresa el valor a cambiar"
 	Leer MON_C
 	Si MON_F es "USD" y MON_D es "EUR" Entonces
-		RESULTADO<- MON_C * 0.93
+		RESULTADO <- MON_C * 0.93
+		Escribir "El valor de " MON_D " es: " RESULTADO 
 	FinSi
 FinAlgoritmo
