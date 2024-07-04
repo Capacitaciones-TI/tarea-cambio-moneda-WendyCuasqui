@@ -18,5 +18,8 @@ Algoritmo moneda
 		RESULTADO <- MON_C * 1.50
 		Escribir "El valor de " MON_D " es: " RESULTADO 
 	FinSi
-	
+	Si MON_F es "EUR" y MON_D es "USD" Entonces
+		RESULTADO <- MON_C * 1.07
+		Escribir "El valor de " MON_D " es: " RESULTADO 
+	FinSi
 FinAlgoritmo
